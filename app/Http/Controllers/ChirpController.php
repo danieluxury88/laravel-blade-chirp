@@ -57,7 +57,7 @@ class ChirpController extends Controller
     {
         $this->authorize('update', $chirp);
 
-        return view('chirp.edit', [
+        return view('chirps.edit', [
             'chirp' => $chirp,
         ]);
     }
