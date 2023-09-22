@@ -2,7 +2,7 @@
 
 namespace App\Notifications;
 
-use App\Policies\ChirpPolicy;
+use App\Models\Chirp;
 use Illuminate\Bus\Queueable;
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Queue\ShouldQueue;
